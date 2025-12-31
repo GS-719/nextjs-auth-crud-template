@@ -155,7 +155,7 @@ export default function UserList() {
                         <p>No users found.</p>
                     )}
 
-                    {session?.user?.role !== "ADMIN" ? "" : <b>Please Sign in as ADMIN to check the users</b>}
+                    {session?.user?.role === "ADMIN" ? null : <b>Please Sign in as ADMIN to check the users</b>}
                 </div>
             </div>
         );
