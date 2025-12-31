@@ -71,7 +71,7 @@ const Page = () => {
         router.refresh();
     };
 
-    if (session?.user?.role === "ADMIN") {
+    // if (session?.user?.role === "ADMIN") {
         // Fetch user data when component mounts
         useEffect(() => {
             if (status === "authenticated") {
@@ -95,7 +95,7 @@ const Page = () => {
                 setLoading(false);
             }
         };
-    }
+    // }
 
 
     // Loading state
