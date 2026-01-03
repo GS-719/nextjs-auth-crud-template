@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "nextjs-auth-crud-template",
+  "version": "1.0.0",
   "private": true,
+  "description": "Production-ready Next.js template with JWT authentication, role-based authorization, and secure CRUD operations using Prisma.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
